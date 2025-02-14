@@ -29,6 +29,7 @@ lb_calculated_age = tk.Label(window,text="The Calculated Age is: ",font=('Arial'
 tbox_age=tk.Text(window,width=5,height=0,state="disabled")
 btn_exit = tk.Button(window,text="Exit Application!",font=("Arial",13),command=exit)
 
+#This code places everything in the tk window using .place()
 lb_heading.place(x=400,y=30)
 lb_subheading.place(x=400, y=80)
 lb_resize.place(x=10,y=30)
