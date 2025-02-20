@@ -81,10 +81,10 @@ e_year = tk.Entry(window,width=5)
 
 #combobox
 n = tk.StringVar()
-month_chosen = ttk.Combobox(window, textvariable = n, width=12)
+month_chosen = ttk.Combobox(window, textvariable = n, width=20)
 
 #adding combobox drop down menu
-month_chosen['values'] = ('Select a date...',
+month_chosen['values'] = ('Select a month...',
                             'January',
                             'February',
                             'March',
