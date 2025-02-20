@@ -25,6 +25,7 @@ def validation():
             elif any(ch.isdigit() for ch in y) == False:
                 msg = 'year must be a NUMBER'
             else:
+                msg = 'Here is your calculated age!'
                 day = int(d)
                 month = m #month us already in number form list pos
                 year = int(y)
